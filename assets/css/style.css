@@ -83,7 +83,7 @@ footer{
 
 /*pagina de contato*/
 
-.input[type=text], textarea {
+input[type=text], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -91,7 +91,7 @@ footer{
     resize: vertical;
   }
   
-.label {
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
