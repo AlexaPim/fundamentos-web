@@ -1,0 +1,115 @@
+/*página inicial*/
+
+body{
+    background-color: violet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 0 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.conteudo{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    background-color: purple;
+    margin: auto;
+    padding: 20px;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    color: gray;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.br-50{
+    border-radius: 60%;
+}
+
+.wh-400{
+    width: 400px;
+    height: 300px;
+}
+
+.tamanho-social{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: purple;
+    color: white;
+}
+
+.copyrigth{
+   font-size: 30px;
+}
+
+/*p{
+    background-attachment: fixed;
+}*/
+
+/*pagina de contato*/
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+
+.botao{
+    width: 30%;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+}
+
+.botao:hover{
+    background-color: indigo;
+}

@@ -3,30 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Contato</title>
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
 
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
     
-    <form action="">
-        <label for="nome"> Nome </label>
-        <input type="text" id="nome">
-        <br>
-        <label for="email"> E-mail </label>
-        <input type="text" id="email">
-        <br>
-        <label for="assunto"> Assunto </label>
-        <br>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-        <br>
-        <button> Enviar </button>
-    </form>
+    <div class="conteudo">
+        <form>
+            <label for="nome"> Nome </label>
+            <input type="text" id="nome" required>
+            <label for="email"> E-mail </label>
+            <input type="text" id="email" required>
+            <label for="assunto"> Assunto </label>
+            <textarea name="assunto" id="assunto" cols="30" rows="10" required></textarea>
+            <button class="botao"> Enviar </button>
+        </form>
 
+    </div>
+
+    <hr>
+    <footer>
+        <div class="conteudo">
+            <a href="https://github.com/AlexaPim" target="_blank">
+                <img class="tamanho-social p-30" src="./assets/img/github.png" alt="Logo do Github">
+             </a>   
+            <a href="https://www.linkedin.com/in/alexssandra-pimentel/" target="_blank">
+                <img class="tamanho-social p-30" src="./assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            
+        </div>
+
+        <p class="center">Todos os direitos reservados para: Alexa Pim | 2021 &copy; </p>
+    </footer>
+
+  
 </body>
 </html>
