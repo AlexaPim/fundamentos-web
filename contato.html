@@ -18,12 +18,15 @@
     <div class="conteudo">
         <form>
             <label for="nome"> Nome </label>
-            <input type="text" id="nome" required>
+            <input type="text" id="nome" onkeyup='validaNome()' required placeholder="ex: Maria Silva">
+            <div id='txtNome'></div>
             <label for="email"> E-mail </label>
-            <input type="text" id="email" required>
+            <input type="text" id="email" onkeyup='validaEmail()' required placeholder="email@email.com">
+            <div id="txtEmail"></div>
             <label for="assunto"> Assunto </label>
-            <textarea name="assunto" id="assunto" cols="30" rows="10" required></textarea>
-            <button class="botao"> Enviar </button>
+            <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup='validaAssunto()' required placeholder="Digite sua mensagem aqui"></textarea>
+            <div id="txtAssunto"></div>
+            <button class="botao" onclick='enviar()'> Enviar </button>
         </form>
 
     </div>
@@ -43,6 +46,7 @@
         <p class="center">Todos os direitos reservados para: Alexa Pim | 2021 &copy; </p>
     </footer>
 
-  
+    <script src="./assets/js/script.js"></script>
+
 </body>
 </html>
