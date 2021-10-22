@@ -1,5 +1,8 @@
 # Fundamentos web
+# Site para visualizar melhor
+-
+- 👯 Clique no icon abaixo
 
-#Site para visualizar melhor
-
-<a href="https://alexabts.netlify.app/" target="_blank">
+<div>
+<a href="https://alexabts.netlify.app/" target="_blank"> <img src="./assets/img/icon.png">
+</div>
