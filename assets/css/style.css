@@ -51,7 +51,7 @@ body{
     color: gray;
 }
 
-h1, h2{
+h1, h2, h3{
     font: bold;
     font-size: 30px;
     font-family: cursive;
